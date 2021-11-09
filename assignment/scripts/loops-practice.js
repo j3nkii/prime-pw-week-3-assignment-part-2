@@ -9,7 +9,7 @@ console.log('count from 0 to 3');
 for (let i=0; i<4; i++) {  
   console.log(i);
 }
-
+console.log('TODO');
       // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
       //   - Which part of the example loop do you need to change to do this?
       console.log('count from 0 to 5');
@@ -36,11 +36,9 @@ for (let i=0; i<4; i++) {
       for (let i=5; i>=0; i--) {
         console.log(i);
       }
-
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
-
       // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
       console.log('Some stars:');
       for(star of stars) {
